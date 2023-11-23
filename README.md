@@ -8,17 +8,24 @@ opened an issue about it, otherwise feel free to create one yourself :)
 
 ## List of plugins
 
-| Plugin                       | Description             |
-|------------------------------|-------------------------|
-| [`shfmt`](plugins/shfmt.lua) | Shell scripts formatter |
+| Plugin                       | Description                 |
+|------------------------------|-----------------------------|
+| [`shfmt`](plugins/shfmt.lua) | Formatter for shell scripts |
 
 ## How to install
 
-To install a plugin:
+To install a plugin, drop the plugin `.lua` file directly in:
 
-*   If the plugin links to a repository, follow its `README`.
-*   If the plugin is a single file or directory, drop it directly in:
+*   Linux `~/.config/lite-xl/plugins/`
+*   MacOS `~/.config/lite-xl/plugins/`
+*   Windows `C:\Users\(username)\.config\lite-xl\plugins\`
 
-    *   Linux `~/.config/lite-xl/plugins/`
-    *   MacOS `~/.config/lite-xl/plugins/`
-    *   Windows `C:\Users\(username)\.config\lite-xl\plugins\`
+If the plugin consists in multiple files in a directory, copy the entire
+directory.
+
+Cloning the repo and make symlinks to the `lite-lx` plugin folder is a good
+way to keep everything up-to-date with a simple `git pull`.
+
+Another great way would be the use of the official
+[`plugin_manager`](https://github.com/lite-xl/lite-xl-plugin-manager) with
+multiple repository.
