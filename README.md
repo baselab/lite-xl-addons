@@ -6,6 +6,12 @@ If you can't find a plugin that suits your needs, check if someone has already
 created one at [Lite XL plugins](https://github.com/lite-xl/lite-xl-plugins) or
 opened an issue about it, otherwise feel free to create one yourself :)
 
+## List of plugins
+
+| Plugin                       | Description             |
+|------------------------------|-------------------------|
+| [`shfmt`](plugins/shfmt.lua) | Shell scripts formatter |
+
 ## How to install
 
 To install a plugin:
