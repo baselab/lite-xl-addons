@@ -7,7 +7,7 @@
 -- This is a slightly re-written version of https://git.sr.ht/~tmpod/black-lite
 
 -- Run with
---   Black: format
+--   Pyfmt: format
 
 -- Imports
 local core = require "core"
@@ -16,7 +16,7 @@ local config = require "core.config"
 local common = require "core.common"
 
 -- Config
-config.plugins.black = common.merge({
+config.plugins.pyfmt = common.merge({
   enabled = true,
   exec = "black",
   args = "",
@@ -37,7 +37,7 @@ config.plugins.black = common.merge({
       default = "",
     }
   }
-}, config.plugins.black)
+}, config.plugins.pyfmt)
 
 -- Main logic
 local function format()
@@ -52,8 +52,8 @@ local function format()
   local ok, _, code = os.execute(
     string.format(
       "%s %s %s",
-      config.plugins.black.exec,
-      config.plugins.black.args,
+      config.plugins.pyfmt.exec,
+      config.plugins.pyfmt.args,
       doc:get_name()
     )
   )
@@ -70,5 +70,5 @@ local function format()
 end
 
 -- Register the command
-command.add("core.docview", {["black:format"] = format})
+command.add("core.docview", {["pyfmt:format"] = format})
 
