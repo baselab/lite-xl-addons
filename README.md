@@ -11,6 +11,7 @@ opened an issue about it, otherwise feel free to create one yourself :)
 | Plugin                       | Description                 |
 |------------------------------|-----------------------------|
 | [`shfmt`](plugins/shfmt.lua) | Formatter for shell scripts |
+| [`pyfmt`](plugins/pyfmt.lua) | Formatter for python code   |
 
 ## How to install
 
@@ -27,5 +28,10 @@ Cloning the repo and make symlinks to the `lite-lx` plugin folder is a good
 way to keep everything up-to-date with a simple `git pull`.
 
 Another great way would be the use of the official
-[`plugin_manager`](https://github.com/lite-xl/lite-xl-plugin-manager) with
-multiple repository.
+[`plugin_manager`](https://github.com/lite-xl/lite-xl-plugin-manager) and add
+this git as repository:
+
+```
+lpm repo add https://github.com/baselab/lite-xl-addons.git:main
+lpm plugin install <plugin-name>
+```

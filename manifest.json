@@ -1,0 +1,32 @@
+{
+  "addons": [
+    {
+      "description": "Formatter for shell scripts",
+      "version": "0.1",
+      "path": "plugins/shfmt.lua",
+      "id": "shfmt",
+      "mod_version": "3",
+      "type": "plugin",
+      "name": "Shfmt",
+      "tags": ["shell", "formatter"],
+      "extra": {
+        "author": "Baselab",
+        "license": "MIT"
+      }
+    },
+    {
+      "description": "Formatter for python code",
+      "version": "0.1",
+      "path": "plugins/pyfmt.lua",
+      "id": "pyfmt",
+      "mod_version": "3",
+      "type": "plugin",
+      "name": "Pyfmt",
+      "tags": ["python", "formatter"],
+      "extra": {
+        "author": "Baselab",
+        "license": "MIT"
+      }
+    }
+  ]
+}
