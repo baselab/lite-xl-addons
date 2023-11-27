@@ -10,8 +10,8 @@ opened an issue about it, otherwise feel free to create one yourself :)
 
 | Plugin                       | Description                 |
 |------------------------------|-----------------------------|
-| [`shfmt`](plugins/shfmt.lua) | Formatter for shell scripts |
-| [`pyfmt`](plugins/pyfmt.lua) | Formatter for python code   |
+| [`shfmt`](plugins/shfmt.lua) | Formatter for Shell scripts |
+| [`pyfmt`](plugins/pyfmt.lua) | Formatter for Python code   |
 
 ## How to install
 
