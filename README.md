@@ -32,6 +32,6 @@ Another great way would be the use of the official
 this git as repository:
 
 ```
-lpm repo add https://github.com/baselab/lite-xl-addons.git:main
+lpm repo add <http clone url for this repo>:main
 lpm plugin install <plugin-name>
 ```
