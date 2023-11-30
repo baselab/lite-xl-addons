@@ -27,6 +27,20 @@
         "author": "Baselab",
         "license": "MIT"
       }
+    },
+    {
+      "description": "Linter for Ansible playbooks",
+      "version": "0.1",
+      "path": "plugins/ansible_linter.lua",
+      "id": "ansible_linter",
+      "mod_version": "3",
+      "type": "plugin",
+      "name": "Ansible_linter",
+      "tags": ["ansible", "linter"],
+      "extra": {
+        "author": "Baselab",
+        "license": "MIT"
+      }
     }
   ]
 }

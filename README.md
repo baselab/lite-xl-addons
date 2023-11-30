@@ -8,10 +8,11 @@ opened an issue about it, otherwise feel free to create one yourself :)
 
 ## List of plugins
 
-| Plugin                       | Description                 |
-|------------------------------|-----------------------------|
-| [`shfmt`](plugins/shfmt.lua) | Formatter for Shell scripts |
-| [`pyfmt`](plugins/pyfmt.lua) | Formatter for Python code   |
+| Plugin                                         | Description                  |
+|------------------------------------------------|------------------------------|
+| [`shfmt`](plugins/shfmt.lua)                   | Formatter for Shell scripts  |
+| [`pyfmt`](plugins/pyfmt.lua)                   | Formatter for Python code    |
+| [`ansible_linter`](plugins/ansible_linter.lua) | Linter for Ansible playbooks |
 
 ## How to install
 
